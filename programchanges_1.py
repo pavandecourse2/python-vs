@@ -8,5 +8,5 @@ grouped ={}
 for employee in employees:
     department = employee["department"]
     grouped.setdefault(department, []).append(employee)
-
 print(grouped)
+#####################################################################################
